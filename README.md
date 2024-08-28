@@ -1,19 +1,19 @@
-# Ex.No: 01 PLOT A TIME SERIES DATA
+# Ex.No: 1A PLOT A TIME SERIES DATA
 
 ## Developed by : LUBINDHER S
 ## Register number : 212222240056
-## Date: 28/08/24
+## Date: 
 
 # AIM:
 To Develop a python program to Plot a time series data (population/ market price of a commodity
 /temperature.
 # ALGORITHM:
-1. Import the required packages like pandas and matplot
-2. Read the dataset using the pandas
-3. Calculate the mean for the respective column.
-4. Plot the data according to need and can be altered monthly, or yearly.
-5. Display the graph.
-# PROGRAM:
+1. Import necessary libraries (pandas, matplotlib).
+2. Load the dataset using pandas and parse the date column.
+3. Filter the data by the desired time range.
+4. Calculate the mean for the specified column, resampling by month or year.
+5. Plot the data using matplotlib with appropriate labels and titles.
+6. Display the plotted graph.
 ## Population:
 
 ```python
@@ -75,4 +75,4 @@ plt.show()
 
 
 # RESULT:
-Thus we have created the Python code for plotting the time series of given data.
+Thus I have created the Python code for plotting the time series of given data.
